@@ -1,394 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Zachary Eilers</title>
 
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-      crossorigin="anonymous"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Zachary Eilers</title>
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:400,600,800,900&display=swap"
-      rel="stylesheet"
-    />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
 
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-      crossorigin="anonymous"
-    />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,800,900&display=swap" rel="stylesheet" />
 
-    <link rel="stylesheet" href="styles.css" />
-  </head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
 
-  <body>
-    <nav
-      class="navbar navbar-dark nav fixed-top navbar-expand-md justify-content-between"
-      id="navbar"
-    >
-      <a class="navbar-brand" href="#">Zachary Eilers</a>
-      <button
-        class="navbar-toggler border border-white"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <i class="fas fa-bars text-light"></i>
-      </button>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-      <div
-        class="collapse navbar-collapse justify-content-start"
-        id="navbarNav"
-      >
-        <ul class="navbar-nav w-100">
-          <li class="nav-item active">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#education">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about-me">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+<body>
 
-    <section id="showcase">
-      <div class="overlay-dark">
-        <div class="container text-left" id="header">
-            <div id="header-background-dark">
-                <h1 id="hi">Howdy!</h1>
-                <h2 id="myname" class="pt-4">I'm Zachary Eilers</h2>
-                <h3>I'm a junior in high school in Austin, Texas. I love programming, swimming, and problem solving!</h3>
-            </div>
-        </div>
-        <div id="fade-to-dark"></div>
-      </div>
-    </section>
+  <nav class="nav navbar navbar-light navbar-expand-md justify-content-between fixed-top" id="navbar">
+    <a class="navbar-brand" href="#">Zachary Eilers</a>
+    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars text-dark" style="font-size: 25px;"></i>
+    </button>
 
-    <section id="projects">
-      <div class="container px-2 py-5 px-md-5">
-        <h2 class="section-title display-4">Projects</h2>
-        <h3>2019</h3>
-        <div class="card">
-          <div class="row">
-            <div class="col-6 col-lg-3">
-              <img src="home.PNG" class="card-img-top" alt="the home page" />
-            </div>
-            <div class="col-6 col-lg-3">
-              <img
-                src="show_swimmer.PNG"
-                class="card-img-top"
-                alt="the page that shows the swimmer's swim times and what time cuts they've achieved"
-              />
-            </div>
-            <div class="col-6 col-lg-3">
-              <img
-                src="filter.PNG"
-                class="card-img-top"
-                alt="shows the filtering mechanism to easily and quickly view a specific event"
-              />
-            </div>
-            <div class="col-6 col-lg-3">
-              <img
-                src="swim_details.PNG"
-                class="card-img-top"
-                alt="shows the extra details modal"
-              />
-            </div>
-          </div>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav w-100">
+        <li class="nav-item active">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about-me">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-          <div class="card-body">
-            <h5 class="card-title">Swim Stats</h5>
-            <h6 class="card-subtitle mb-2 text-muted">
-              iOS and Android Mobile App
-            </h6>
-            <p class="card-text">
-              A fast, simple, and clean mobile app for viewing the race times of
-              any of the 400,000-plus swimmers within USA Swimming. Built with
-              <a href="https://flutter.dev/">Google's Flutter Framework</a>.
-            </p>
-            <p class="card-text">
-              I built this app in the summer between my sophomore and junior
-              years of high school.
-            </p>
+  <section id="showcase">
+    <div class="container">
+      <div class="row">
+        <div class="col col-md-6 order-2 order-md-1 text-center">
+          <div class="text-left d-inline-block text-center pt-5">
+            <h4 class="lead display-4">I'm Zachary</h4>
+            <p class="lead">I'm a <i>junior</i> in high school with a passion for building things.</p>
+            <a class="btn btn-dark" href="#" role="button">Github</a>
 
-            <h6 class="font-weight-bold">Tech Stack</h6>
-            <ul>
-              <li>Flutter Mobile App (Client)</li>
-              <li>
-                Custom Java Backend on AWS getting times from USA Swimming
-                website
-              </li>
-            </ul>
+            <a class="btn btn-outline-success" href="#" role="button">Instagram</a>
 
-            <h6 class="font-weight-bold">What I Learned</h6>
-            <ul>
-              <li>
-                I attained a solid grasp of the fundamentals and some advanced
-                features of the Flutter Framework, for example:
-                <ul>
-                  <li>Simple Custom Animations with an Animation Controller</li>
-                  <li>
-                    Managing routing with
-                    <a href="https://pub.dev/packages/fluro"
-                      >the fluro router package</a
-                    >
-                  </li>
-                  <li>Outsourcing logic to separate classes</li>
-                  <li>
-                    Saving data to the disk with
-                    <a href="https://pub.dev/packages/path_provider">
-                      the path_provider package</a
-                    >
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-          <div class="card-footer">
-            <a
-              href="https://github.com/ZacharyEilers/swim-stats"
-              class="card-link"
-              >Github</a
-            >
-            <a
-              href="https://apps.apple.com/us/app/swim-stats-view-swim-times/id1471724755"
-              class="card-link"
-              >App Store</a
-            >
-            <a href="#projects" class="card-link disabled"
-              >Google Play Store - Coming Soon!</a
-            >
           </div>
         </div>
-
-        <h3 class="pt-5">2018</h3>
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Code Journal</h5>
-            <h6 class="card-subtitle mb-2 text-muted">
-              Web Application
-            </h6>
-            <p class="card-text">
-              A project I started as a sophomore in 2018. The app was originally
-              intended to be a blogging platform for students studying computer
-              science and learning programming, especially high school students.
-              However, because I failed to properly plan out what features,
-              pages, and routes my app would have, I failed to complete it.
-            </p>
-
-            <h6 class="font-weight-bold">Tech Stack</h6>
-            <ul>
-              <li>Node.js</li>
-              <li>Express.js</li>
-              <li>MongoDB</li>
-              <li>EJS (Templating Engine)</li>
-              <li>Bootstrap CSS</li>
-            </ul>
-
-            <h6 class="font-weight-bold">What I Learned</h6>
-            <ul>
-              <li>
-                This project solidified my understanding of Node.js
-                fundamentals.
-              </li>
-
-              <li>
-                I gained a strong understanding of how web applications work and
-                how they're built.
-              </li>
-              <li>
-                I mastered the concept of RESTful routing as I applied it to the
-                structure of the routes in my application.
-              </li>
-              <li>
-                I learned the basics of interacting with MongoDB from a Node.js
-                environment and how to efficiently structure my data in a NoSQL
-                database.
-              </li>
-            </ul>
-          </div>
-          <div class="card-footer">
-            <a
-              href="https://github.com/ZacharyEilers/CodeJournal"
-              class="card-link"
-              >Github</a
-            >
-          </div>
-        </div>
-
-        <div class="card mt-4">
-          <div class="card-body">
-            <h5 class="card-title">Meteor Storm</h5>
-            <h6 class="card-subtitle mb-2 text-muted">
-              iOS and Android Mobile Game
-            </h6>
-            <p class="card-text">
-              Meteor Storm is a mobile game played by saving the Earth from
-              meteors flying towards it from the edges of the screen. The game
-              keeps track of the user's high score, allowing players to compare
-              their skills and compete for the best score.
-            </p>
-            <p class="card-text">
-              I built Meteor Storm over about 3 months during January - March of
-              my freshman year of high school. The game was built with the
-              <a href="https://coronalabs.com/">Corona Game Engine</a>.
-            </p>
-
-            <h6 class="font-weight-bold">Tech Stack</h6>
-            <ul>
-              <li>Corona Game Engine with the Lua Programming Language</li>
-            </ul>
-
-            <h6 class="font-weight-bold">What I Learned</h6>
-            <ul>
-              <li>
-                I learned a ton about game programming
-              </li>
-              <li>
-                I gained a strong understanding of how large pieces of software
-                are built
-              </li>
-              <li>Gained experience in built complex software</li>
-            </ul>
-          </div>
-          <div class="card-footer">
-            <a
-              href="https://github.com/ZacharyEilers/Meteor-Storm"
-              class="card-link"
-              >Github</a
-            >
-            <a
-              href="https://apps.apple.com/us/app/meteor-storm-defend-earth/id1358732295"
-              class="card-link"
-              >App Store</a
-            >
-            <a
-              href="https://play.google.com/store/apps/details?id=com.gmail.bluedeskstudios.Meteor_Storm&hl=en_US"
-              class="card-link"
-              >Google Play Store</a
-            >
-          </div>
-        </div>
-
-        <h3 class="pt-5">2017</h3>
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Bouncing Balls</h5>
-            <h6 class="card-subtitle mb-2 text-muted">
-              Android Mobile App
-            </h6>
-            <p class="card-text">
-              A fun mobile game I built in eigth grade with MIT App Inventor. I
-              was the first student at my middle school to have both built and
-              published a mobile app. The game I built is played by tapping the
-              grey balls floating around the screen. However, there are also
-              orange balls floating around the screen! Points are received by
-              tapping the grey balls and the game ends when any orange ball is
-              accidentally tapped. The grey balls always travel under their
-              orange counterparts when they collide, making the game challenging
-              to master.
-            </p>
-            <p class="card-text">
-              The user's highest score is recorded and saved to the device to
-              motivate the player to continually get better at the game.
-            </p>
-
-            <h6 class="font-weight-bold">Tech Stack</h6>
-            <ul>
-              <li>Android mobile app</li>
-            </ul>
-
-            <h6 class="font-weight-bold">What I Learned</h6>
-            <ul>
-              <li>
-                I gained a solid grasp of core programming concepts and how to
-                apply them to building a mobile app
-              </li>
-            </ul>
-          </div>
-          <div class="card-footer">
-            <a
-              href="https://play.google.com/store/apps/details?id=appinventor.ai_bluedeskstudios.BouncingBalls&hl=en_US"
-              class="card-link"
-              >Google Play</a
-            >
-          </div>
+        <div class="col col-md-6 order-1 order-md-2 text-center">
+          <img src="zachary.jpg" alt="My face" id="my-face">
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="education" class="mt-5">
-      <div class="container px-2 py-5 px-md-5">
-        <h2 class="section-title display-4">Education</h2>
-        <h3 class="mt-3">2017-2021</h3>
-        <div class="card mt-4">
-          <div class="card-body">
-            <h5 class="card-title">James Bowie High School</h5>
-            <p class="card-text">
-                <ul>
-                    <li>AP Computer Science A <p class="text-muted d-block">Taken Sophomore Year (2018-2019)</p></li>
-                </ul>
-            </p>
+  <section id="projects">
+    <div class="container px-2 py-5 px-md-5">
+      <h2 class="section-title display-4">Projects</h2>
+      <h3>2019</h3>
+      <div class="card border-0 shadow-sm">
+        <div class="row">
+          <div class="col-6 col-lg-3">
+            <img src="home.PNG" class="card-img-top" alt="the home page" />
           </div>
-          
+          <div class="col-6 col-lg-3">
+            <img src="show_swimmer.PNG" class="card-img-top"
+              alt="the page that shows the swimmer's swim times and what time cuts they've achieved" />
+          </div>
+          <div class="col-6 col-lg-3">
+            <img src="filter.PNG" class="card-img-top"
+              alt="shows the filtering mechanism to easily and quickly view a specific event" />
+          </div>
+          <div class="col-6 col-lg-3">
+            <img src="swim_details.PNG" class="card-img-top" alt="shows the extra details modal" />
+          </div>
+        </div>
+
+        <div class="card-body">
+          <h5 class="card-title">Swim Stats</h5>
+          <h6 class="card-subtitle mb-2 text-muted">
+            iOS and Android Mobile App
+          </h6>
+          <p class="card-text">
+            A fast, simple, and clean mobile app for viewing the race times of
+            any of the 400,000-plus swimmers within USA Swimming. Built with
+            <a href="https://flutter.dev/">Google's Flutter Framework</a>.
+          </p>
+          <p class="card-text">
+            I built this app in the summer between my sophomore and junior
+            years of high school.
+          </p>
+
+          <h6 class="font-weight-bold">Tech Stack</h6>
+          <ul>
+            <li>Flutter Mobile App (Client)</li>
+            <li>
+              Custom Java Backend on AWS getting times from USA Swimming
+              website
+            </li>
+          </ul>
+
+          <h6 class="font-weight-bold">What I Learned</h6>
+          <ul>
+            <li>
+              I attained a solid grasp of the fundamentals and some advanced
+              features of the Flutter Framework, for example:
+              <ul>
+                <li>Simple Custom Animations with an Animation Controller</li>
+                <li>
+                  Managing routing with
+                  <a href="https://pub.dev/packages/fluro">the fluro router package</a>
+                </li>
+                <li>Outsourcing logic to separate classes</li>
+                <li>
+                  Saving data to the disk with
+                  <a href="https://pub.dev/packages/path_provider">
+                    the path_provider package</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="card-footer border-0 bg-white">
+          <a href="https://github.com/ZacharyEilers/swim-stats" class="card-link">Github</a>
+          <a href="https://apps.apple.com/us/app/swim-stats-view-swim-times/id1471724755" class="card-link">App
+            Store</a>
+          <a href="#projects" class="card-link disabled">Google Play Store - Coming Soon!</a>
         </div>
       </div>
-    </section>
 
-    <section id="about-me" class="mt-5">
-        <div class="container px-2 py-5 px-md-5">
-            <h2 class="section-title display-4">About Me</h2>
-            
-           
+      <h3 class="pt-5">2018</h3>
+      <div class="card border-0 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Code Journal</h5>
+          <h6 class="card-subtitle mb-2 text-muted">
+            Web Application
+          </h6>
+          <p class="card-text">
+            A project I started as a sophomore in 2018. The app was originally
+            intended to be a blogging platform for students studying computer
+            science and learning programming, especially high school students.
+            However, because I failed to properly plan out what features,
+            pages, and routes my app would have, I failed to complete it.
+          </p>
+
+          <h6 class="font-weight-bold">Tech Stack</h6>
+          <ul>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>MongoDB</li>
+            <li>EJS (Templating Engine)</li>
+            <li>Bootstrap CSS</li>
+          </ul>
+
+          <h6 class="font-weight-bold">What I Learned</h6>
+          <ul>
+            <li>
+              This project solidified my understanding of Node.js
+              fundamentals.
+            </li>
+
+            <li>
+              I gained a strong understanding of how web applications work and
+              how they're built.
+            </li>
+            <li>
+              I mastered the concept of RESTful routing as I applied it to the
+              structure of the routes in my application.
+            </li>
+            <li>
+              I learned the basics of interacting with MongoDB from a Node.js
+              environment and how to efficiently structure my data in a NoSQL
+              database.
+            </li>
+          </ul>
         </div>
-    </section>
-
-    <section id="contact" class="mt-5">
-        <div class="container px-2 py-5 px-md-5">
-            <h2 class="section-title display-4">Contact Me</h2>
-            <h6 class = 'text-muted'>For job or business inquires, please contact my email below</h6>
-    
-            <div class="card border-0">
-                <div class="card-body">
-                    <h5 class="card-title font-weight-bold">Email</h5>
-                    <a class="card-text" href='mailto:zacharyeilers03@gmail.com'>zacharyeilers03@gmail.com</a>
-                </div>
-            </div>
-            
+        <div class="card-footer border-0 bg-white">
+          <a href="https://github.com/ZacharyEilers/CodeJournal" class="card-link">Github</a>
         </div>
-    </section>
+      </div>
 
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-      crossorigin="anonymous"
-    ></script>
-    <script src="scripts.js"></script>
-  </body>
+      <div class="card border-0 shadow-sm mt-4">
+        <div class="card-body">
+          <h5 class="card-title">Meteor Storm</h5>
+          <h6 class="card-subtitle mb-2 text-muted">
+            iOS and Android Mobile Game
+          </h6>
+          <p class="card-text">
+            Meteor Storm is a mobile game played by saving the Earth from
+            meteors flying towards it from the edges of the screen. The game
+            keeps track of the user's high score, allowing players to compare
+            their skills and compete for the best score.
+          </p>
+          <p class="card-text">
+            I built Meteor Storm over about 3 months during January - March of
+            my freshman year of high school. The game was built with the
+            <a href="https://coronalabs.com/">Corona Game Engine</a>.
+          </p>
+
+          <h6 class="font-weight-bold">Tech Stack</h6>
+          <ul>
+            <li>Corona Game Engine with the Lua Programming Language</li>
+          </ul>
+
+          <h6 class="font-weight-bold">What I Learned</h6>
+          <ul>
+            <li>
+              I learned a ton about game programming
+            </li>
+            <li>
+              I gained a strong understanding of how large pieces of software
+              are built
+            </li>
+            <li>Gained experience in built complex software</li>
+          </ul>
+        </div>
+        <div class="card-footer border-0 bg-white">
+          <a href="https://github.com/ZacharyEilers/Meteor-Storm" class="card-link">Github</a>
+          <a href="https://apps.apple.com/us/app/meteor-storm-defend-earth/id1358732295" class="card-link">App Store</a>
+          <a href="https://play.google.com/store/apps/details?id=com.gmail.bluedeskstudios.Meteor_Storm&hl=en_US"
+            class="card-link">Google Play Store</a>
+        </div>
+      </div>
+
+      <h3 class="pt-5">2017</h3>
+      <div class="card border-0 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Bouncing Balls</h5>
+          <h6 class="card-subtitle mb-2 text-muted">
+            Android Mobile App
+          </h6>
+          <p class="card-text">
+            A fun mobile game I built in eigth grade with MIT App Inventor. I
+            was the first student at my middle school to have both built and
+            published a mobile app. The game I built is played by tapping the
+            grey balls floating around the screen. However, there are also
+            orange balls floating around the screen! Points are received by
+            tapping the grey balls and the game ends when any orange ball is
+            accidentally tapped. The grey balls always travel under their
+            orange counterparts when they collide, making the game challenging
+            to master.
+          </p>
+          <p class="card-text">
+            The user's highest score is recorded and saved to the device to
+            motivate the player to continually get better at the game.
+          </p>
+
+          <h6 class="font-weight-bold">Tech Stack</h6>
+          <ul>
+            <li>Android mobile app</li>
+          </ul>
+
+          <h6 class="font-weight-bold">What I Learned</h6>
+          <ul>
+            <li>
+              I gained a solid grasp of core programming concepts and how to
+              apply them to building a mobile app
+            </li>
+          </ul>
+        </div>
+        <div class="card-footer border-0 bg-white">
+          <a href="https://play.google.com/store/apps/details?id=appinventor.ai_bluedeskstudios.BouncingBalls&hl=en_US"
+            class="card-link">Google Play</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="mt-5">
+    <div class="container px-2 py-5 px-md-5">
+      <h2 class="section-title display-4">Education</h2>
+      <h3 class="mt-3">2017-2021</h3>
+      <div class="card border-0 shadow-sm mt-4">
+        <div class="card-body">
+          <h5 class="card-title">James Bowie High School</h5>
+          <p class="card-text">
+            <ul>
+              <li>AP Computer Science A <p class="text-muted d-block">Taken Sophomore Year (2018-2019)</p>
+              </li>
+            </ul>
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="about-me" class="mt-5">
+    <div class="container px-2 py-5 px-md-5">
+      <h2 class="section-title display-4">About Me</h2>
+
+
+    </div>
+  </section>
+
+  <section id="contact" class="mt-5">
+    <div class="container px-2 py-5 px-md-5">
+      <h2 class="section-title display-4">Contact Me</h2>
+      <h6 class='text-muted'>For job or business inquires, please contact my email below</h6>
+
+      <div class="card border-0">
+        <div class="card-body">
+          <h5 class="card-title font-weight-bold">Email</h5>
+          <a class="card-text" href='mailto:zacharyeilers03@gmail.com'>zacharyeilers03@gmail.com</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+  </script>
+  <script src="scripts.js"></script>
+</body>
+
 </html>
