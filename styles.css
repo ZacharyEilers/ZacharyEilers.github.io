@@ -1,7 +1,8 @@
-* {
-  /* font-family: "Montserrat", "sans-serif"; */
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
-
 
 #navbar {
   transition: all 0.2s ease;
