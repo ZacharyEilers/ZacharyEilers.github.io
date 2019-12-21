@@ -1,3 +1,7 @@
+body {
+  padding: 0;
+}
+
 html,
 body {
   max-width: 100%;
@@ -21,13 +25,18 @@ body {
   box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.1);
 }
 
+#footer {
+  margin-bottom: 0;
+}
+
 .section-title {
   font-weight: 800;
 }
 
-.background {
-  background-color: #1c1c1f;
+.background-dark {
+  background-color: #1f1f1f;
 }
+
 
 
 
