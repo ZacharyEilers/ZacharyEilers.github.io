@@ -17,7 +17,7 @@ function generateImageLinkTile(imgLinkObj) {
   const { path, alt, title, content, linkPath } = imgLinkObj;
 
   return `
-        <div class="col-6 col-md-3 my-2">
+        <div class="col-12 col-md-3 my-2">
             <div class="card shadow-sm border-0">
                 <a href="${linkPath}">
                     <img src="${path}" class="card-img-top" alt="${alt}">
