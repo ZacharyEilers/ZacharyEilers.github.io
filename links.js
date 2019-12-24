@@ -25,7 +25,7 @@ function generateImageLinkTile(imgLinkObj) {
                 <div class="card-body">
                     <h5 class="card-title">${title}</h5>
                     <p class="card-text">${content}</p>
-                    <a href="${linkPath}" class="btn btn-primary mt-2">Read More</a>
+                    <a href="${linkPath}" class="btn btn-primary mt-2">Go to Link</a>
                 </div>
             </div>
         </div>
