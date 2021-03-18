@@ -90,9 +90,137 @@
   </section>
 
   <section id="projects">
+
     <div class="container px-2 py-5 px-md-5">
-      <h2 class="section-title display-4">Projects</h2>
+      <h2 class="section-title display-4 mb-4">Projects</h2>
+
+      <h3>2020</h3>
+      <div class="card border-0 shadow-sm mb-5" id="school-chat">
+        <div class="row">
+          <div class="col-6 col-lg-3">
+            <img src="schoolchat-images/screen_1.png" class="card-img-top"
+              alt="School Chat is the messaging platform for students" />
+          </div>
+          <div class="col-6 col-lg-3">
+            <img src="schoolchat-images/screen_2.png" class="card-img-top"
+              alt="Designed to connect everyone in the same class" />
+          </div>
+          <div class="col-6 col-lg-3">
+            <img src="schoolchat-images/screen_3.png" class="card-img-top"
+              alt="Instantly see every question ever asked" />
+          </div>
+          <div class="col-6 col-lg-3">
+            <img src="schoolchat-images/screen_6.png" class="card-img-top"
+              alt="Built for security with optional join codes" />
+          </div>
+        </div>
+
+        <div class="card-body">
+          <h5 class="card-title">School Chat</h5>
+          <h6 class="card-subtitle mb-2 text-muted">
+            iOS and Android Mobile App
+          </h6>
+          <p class="card-text">
+            A platform for connecting students to peers at their school. Built using
+            <a href="https://flutter.dev/">Google's Flutter Framework</a>.
+          </p>
+          <p class="card-text">
+            I built this app during the 2020 spring pandemic, during my junior year of high school.
+          </p>
+
+          <h6 class="font-weight-bold">Tech Stack</h6>
+          <ul>
+            <li>Flutter Mobile App (Client)</li>
+            <li>Firebase for data syncing and storing</li>
+          </ul>
+
+          <h6 class="font-weight-bold">What I Learned</h6>
+          <ul>
+
+            <li>Cloud Firebase (NoSQL) Data Structure</li>
+            <li>Cloud Firestore Security Rules</li>
+            <li>Firebase Authentication</li>
+            <li>Syncing data from the disk to the cloud manually</li>
+
+          </ul>
+        </div>
+        <div class="card-footer border-0 bg-white">
+
+          <a href="https://apps.apple.com/us/app/school-chat/id1506708305#?platform=iphone" class="card-link">App
+            Store</a>
+          <a href="https://play.google.com/store/apps/details?id=com.schoolchat.android" class="card-link">Google Play
+            Store</a>
+        </div>
+      </div>
+
       <h3>2019</h3>
+      <div class="card border-0 shadow-sm mb-5" id="finished">
+        <div class="row">
+          <div class="col-6 col-lg-3">
+            <img src="finished-images/1home.png" class="card-img-top" alt="the dashboard page for viewing homework" />
+          </div>
+          <div class="col-6 col-lg-3">
+            <img src="finished-images/2timeblockpicker.png" class="card-img-top"
+              alt="the complex time picker for committing to when to complete the homework" />
+          </div>
+          <div class="col-6 col-lg-3">
+            <img src="finished-images/3darkcalendar.png" class="card-img-top"
+              alt="viewing homework on the calendar in dark mode" />
+          </div>
+          <div class="col-6 col-lg-3">
+            <img src="finished-images/5completinghomework.png" class="card-img-top"
+              alt="swipe to mark homework items as complete" />
+          </div>
+        </div>
+
+        <div class="card-body">
+          <h5 class="card-title">Finished.</h5>
+          <h6 class="card-subtitle mb-2 text-muted">
+            iOS and Android Mobile App
+          </h6>
+          <p class="card-text">
+            A fast, simple, and clean mobile app for organizing homework and planning when to get it done. Built with
+            <a href="https://flutter.dev/">Google's Flutter Framework</a>.
+          </p>
+          <p class="card-text">
+            I built this app over my sophomore and junior year of high school
+            years of high school.
+          </p>
+
+          <h6 class="font-weight-bold">Tech Stack</h6>
+          <ul>
+            <li>Flutter Mobile App (Client)</li>
+            <li>
+              All data stored locally in app.
+            </li>
+          </ul>
+
+          <h6 class="font-weight-bold">What I Learned</h6>
+          <ul>
+
+            <li>Flutter app architecture, structure, and maintainability</li>
+            <li>Complex, Gesture-Driven Animations using the Animation Controller (used for calendar pull-down menu)
+            </li>
+            <li>Outsourcing logic to separate classes</li>
+            <li>
+              Saving data to the disk with
+              <a href="https://pub.dev/packages/path_provider">
+                the path_provider package</a>
+            </li>
+
+          </ul>
+        </div>
+        <div class="card-footer border-0 bg-white">
+
+          <a href="https://apps.apple.com/us/app/finished-get-homework-done/id1481268497#?platform=iphone"
+            class="card-link">App
+            Store</a>
+          <a href="https://play.google.com/store/apps/details?id=com.zacharyeilers.finished" class="card-link">Google
+            Play
+            Store</a>
+        </div>
+      </div>
+
       <div class="card border-0 shadow-sm" id="swim-stats">
         <div class="row">
           <div class="col-6 col-lg-3">
@@ -157,8 +285,8 @@
           </ul>
         </div>
         <div class="card-footer border-0 bg-white">
-          <a href="https://github.com/ZacharyEilers/swim-stats" class="card-link">Github</a>
-          <a href="https://apps.apple.com/us/app/swim-stats-view-swim-times/id1471724755" class="card-link">App
+          <a href="https://apps.apple.com/us/app/swim-stats-view-swim-times/id1471724755#?platform=iphone"
+            class="card-link">App
             Store</a>
           <a href="https://play.google.com/store/apps/details?id=com.bluedeskstudios.swim_stats"
             class="card-link">Google Play Store</a>
@@ -415,6 +543,7 @@
           times of any of the 400,000 swimmers with USA Swimming. Since its release, the app has seen consistent
           accelerating growth as it spreads throughout the swimming community.
           </p>
+
 
           <p class="subsection">
           <h5 class="text-muted mb-2 mt-4">Now and Beyond</h5>
